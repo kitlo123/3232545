@@ -21,7 +21,7 @@ config = configparser.ConfigParser()
 config.read("config.ini")
 
 line_bot_api = LineBotApi(config['kit']['qut881@gmail.com'])
-handler = WebhookHandler(config['kit']['12345678'])
+handler = WebhookHandler(config['kit']['qw1234'])
 
 @app.route("/callback", methods=['POST'])
 def callback():
