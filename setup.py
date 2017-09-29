@@ -1,4 +1,4 @@
-python==2.2.7
+python==3.6.2
 flask==0.12 
 twisted==11.1.0
 alembic==0.8.9
